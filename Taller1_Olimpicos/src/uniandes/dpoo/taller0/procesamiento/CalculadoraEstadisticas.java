@@ -450,7 +450,7 @@ public class CalculadoraEstadisticas
 	 */
 	public String paisAtleta(String nombreAtleta) {
 		Atleta elAtleta = buscarAtleta(nombreAtleta);
-		String resultado = "Atleta no encontrado";
+		String resultado = "El atleta ingresado no fue encontrado, por favor ingrese otro nombre";
 		if (elAtleta != null) {
 			Pais pais =  elAtleta.darPais();
 			resultado = pais.darNombre();

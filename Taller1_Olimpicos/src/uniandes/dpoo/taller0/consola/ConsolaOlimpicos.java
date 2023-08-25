@@ -111,8 +111,8 @@ public class ConsolaOlimpicos
 	 * Le muestra al usuario el país al que pertenece el atleta
 	 */
 	private void ejecutarPaisAtleta() {
-		System.out.println("\n" + "El país al que pertenece el atleta es"+"\n");
-		String nombre = input("Por faovr ingrese el nombre del atleta");
+		System.out.println("\n" + "Usted a seleccionado la opción 13"+"\n");
+		String nombre = input("Por favor ingrese el nombre del atleta");
 		String respuesta = calculadora.paisAtleta(nombre);
 		System.out.println("El país al que pertenece el atleta es: " + respuesta);
 	}
